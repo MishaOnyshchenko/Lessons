@@ -63,7 +63,8 @@ public class Student {
             isHungry = true;
             System.out.println("baby always hungry");
         } else if (age > 5){
-            System.out.println("not hungry");
+            System.out.println("not hungry" + isHungry);
         }
     }
+
 }

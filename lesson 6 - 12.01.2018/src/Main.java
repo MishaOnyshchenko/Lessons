@@ -1,6 +1,8 @@
 /**
  * Created by java on 12.01.2018.
  */
+import package1.TestClass1;
+import package2.TestClass2;
 public class Main {
     public static void main(String[] args) {
 //        Student stud1 = new Student;
@@ -73,9 +75,12 @@ public class Main {
 //
 //            }
 
+        TestClass1 ts1 = new TestClass1();
 
-        }
+        TestClass2 ts2 = new TestClass2 ();
 
 
+
+    }
     }
 }
