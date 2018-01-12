@@ -50,8 +50,31 @@ public class Main {
 //
 //        System.out.println();
 
-        Student stud2 = new Student();
-        stud2.conditionStudent();
+//        Student stud2 = new Student();
+//        stud2.conditionStudent();
+        //=========================================
+//        Student[] studMas = new Student [13];
+//        Student stud = new Student();
+//        stud.isHappy = true;
+//        stud.conditionStudent();
+//
+//
+//        Student stud3 = new Student();
+//
+//        studMas[0] = stud;
+//        studMas[1] = stud2;
+//        studMas[2] = stud3;
+//
+//        for (int i =3;i<13;i++){
+//            if(i<13){
+//                Student s = new Student ("Olav"+i,true, false);
+//                studMas[i] = s;
+//            } else if(i>=13){
+//
+//            }
+
+
+        }
 
 
     }
