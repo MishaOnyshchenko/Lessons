@@ -4,6 +4,8 @@ public class Runner {
 
         System.out.println("Hello, one more time!");
 
+        System.out.println("Hello World!");
+
         System.out.println("Test!");
     }
 
