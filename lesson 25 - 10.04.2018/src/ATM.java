@@ -28,6 +28,7 @@ public class ATM extends Thread {
         getMoney(money);
     }
     public ATM() {
+
     }
 
 }
