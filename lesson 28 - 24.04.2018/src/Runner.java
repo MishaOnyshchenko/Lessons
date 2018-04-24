@@ -5,7 +5,10 @@ public class Runner {
 
         User user = new User("Vasya", 44, true);
         System.out.println(user);
-        System.out.println("Misha");
+        User user1 = new User.UserBuilder().age(53).build();
+        System.out.println(user1);
+
+
 
 
     }
