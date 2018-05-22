@@ -1,0 +1,11 @@
+INSERT INTO student (name, ser_name, phone, email) VALUES ('bim', 'frick', '+380503456785', 'bim@mail.ru') alina0 kurt0 +380503200, alina0@gmail.com
+INSERT INTO student (name, ser_name, phone, email) VALUES ('bim', 'frick', '+380503456785', 'bim@mail.ru') alina1 kurt1 +380503201, alina1@gmail.com
+INSERT INTO student (name, ser_name, phone, email) VALUES ('bim', 'frick', '+380503456785', 'bim@mail.ru') alina2 kurt2 +380503202, alina2@gmail.com
+INSERT INTO student (name, ser_name, phone, email) VALUES ('bim', 'frick', '+380503456785', 'bim@mail.ru') alina3 kurt3 +380503203, alina3@gmail.com
+INSERT INTO student (name, ser_name, phone, email) VALUES ('bim', 'frick', '+380503456785', 'bim@mail.ru') alina4 kurt4 +380503204, alina4@gmail.com
+INSERT INTO student (name, ser_name, phone, email) VALUES ('bim', 'frick', '+380503456785', 'bim@mail.ru') alina5 kurt5 +380503205, alina5@gmail.com
+INSERT INTO student (name, ser_name, phone, email) VALUES ('bim', 'frick', '+380503456785', 'bim@mail.ru') alina6 kurt6 +380503206, alina6@gmail.com
+INSERT INTO student (name, ser_name, phone, email) VALUES ('bim', 'frick', '+380503456785', 'bim@mail.ru') alina7 kurt7 +380503207, alina7@gmail.com
+INSERT INTO student (name, ser_name, phone, email) VALUES ('bim', 'frick', '+380503456785', 'bim@mail.ru') alina8 kurt8 +380503208, alina8@gmail.com
+INSERT INTO student (name, ser_name, phone, email) VALUES ('bim', 'frick', '+380503456785', 'bim@mail.ru') alina9 kurt9 +380503209, alina9@gmail.com
+INSERT INTO student (name, ser_name, phone, email) VALUES ('bim', 'frick', '+380503456785', 'bim@mail.ru') alina10 kurt10 +3805032010, alina10@gmail.com
