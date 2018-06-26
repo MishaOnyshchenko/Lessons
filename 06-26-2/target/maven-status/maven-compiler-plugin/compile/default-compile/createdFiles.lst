@@ -1,0 +1,4 @@
+com\testSpring\controller\TestController.class
+com\testSpring\dsa.class
+com\testSpring\config\Initializer.class
+com\testSpring\config\WebAppConfig.class
