@@ -14,9 +14,7 @@ public class StudentService {
     private StudentRepository studentRepository;
 
     public void addStudent(Student student){
-
         studentRepository.saveAndFlush(student);
-
     }
 
     public List<Student> allStudent(){

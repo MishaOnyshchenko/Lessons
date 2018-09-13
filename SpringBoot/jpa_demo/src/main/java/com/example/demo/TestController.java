@@ -11,6 +11,7 @@ import java.util.List;
 @RestController
 @Log4j2
 public class TestController {
+
     @Autowired
     private StudentService studentService;
 
@@ -23,7 +24,6 @@ public class TestController {
 
     @PostMapping("/student")
     public String post(@RequestBody Student student) {
-
         log.info("student() ", student);
         studentService.addStudent(student);
         return "okt";
