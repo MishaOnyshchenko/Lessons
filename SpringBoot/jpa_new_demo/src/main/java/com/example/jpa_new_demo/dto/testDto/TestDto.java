@@ -1,5 +1,6 @@
-package com.example.jpa_new_demo.dto;
+package com.example.jpa_new_demo.dto.testDto;
 
+import com.example.jpa_new_demo.dto.testDto.Glossary;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 

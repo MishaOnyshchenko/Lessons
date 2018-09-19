@@ -1,4 +1,4 @@
-package com.example.jpa_new_demo.dto;
+package com.example.jpa_new_demo.dto.testDto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

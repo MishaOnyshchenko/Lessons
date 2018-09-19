@@ -4,13 +4,16 @@ import lombok.Data;
 
 import javax.persistence.*;
 
+import static javax.persistence.GenerationType.IDENTITY;
+
+
 @Data
 @Entity
 @Table
 public class TaskStudent {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = IDENTITY)
     private int id;
 
     @Column
