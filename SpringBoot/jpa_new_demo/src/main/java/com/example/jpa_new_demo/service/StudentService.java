@@ -1,7 +1,7 @@
 package com.example.jpa_new_demo.service;
 
 import com.example.jpa_new_demo.dao.entity.StudentEntity;
-import com.example.jpa_new_demo.dao.entity.TaskStudent;
+import com.example.jpa_new_demo.dao.entity.StudentTask;
 import com.example.jpa_new_demo.dao.repository.StudentRepository;
 import com.example.jpa_new_demo.dto.StudentDto;
 import lombok.extern.log4j.Log4j2;
@@ -24,19 +24,21 @@ public class StudentService {
         entity.setName(studentDto.getName());
         entity.setAge(studentDto.getAge());
 
-        List<TaskStudent> taskListService = new ArrayList<>(studentDto.getTaskListDto().size());
+        List<StudentTask> taskListService = new ArrayList<>(studentDto.getTaskListDto().size());
 
         for (StudentDto.TaskList taskDto : studentDto.getTaskListDto()) {
             try {
-                TaskStudent taskStudent = new TaskStudent();
+                StudentTask studentTask = new StudentTask();
 
-                taskStudent.setTitle(taskDto.getTitle());
+//                studentTask.setStudentEntity(entity);
+
+                studentTask.setTitle(taskDto.getTitle());
                 log.info("taskDto.getTitle: {}", taskDto.getTitle());
 
-                taskListService.add(taskStudent);
-                log.info("taskListService.add(taskListStudent: {}", taskStudent);
+                taskListService.add(studentTask);
+                log.info("taskListService.add(studentTaskList: {}", studentTask);
 
-                entity.setTaskListStudent(taskListService);
+                entity.setStudentTaskList(taskListService);
                 log.info("taskListService: {}", taskListService);
             } catch (Exception e) {
                 e.printStackTrace();

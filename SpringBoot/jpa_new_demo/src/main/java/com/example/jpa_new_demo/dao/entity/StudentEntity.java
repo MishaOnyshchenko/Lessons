@@ -16,6 +16,7 @@ public class StudentEntity {
 
     @Id
     @GeneratedValue(strategy = IDENTITY)
+    @Column()
     private int id;
 
 
@@ -28,6 +29,8 @@ public class StudentEntity {
 
 
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<TaskStudent> taskListStudent;
+    private List<StudentTask> studentTaskList;
 
+//    @OneToMany(fetch = FetchType.LAZY, mappedBy = "studentEntity", cascade = CascadeType.ALL)
+//    private List<StudentTask> studentTaskList;
 }

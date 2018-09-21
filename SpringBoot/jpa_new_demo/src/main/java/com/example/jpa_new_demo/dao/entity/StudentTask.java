@@ -9,8 +9,8 @@ import static javax.persistence.GenerationType.IDENTITY;
 
 @Data
 @Entity
-@Table
-public class TaskStudent {
+@Table(name = "student_task")
+public class StudentTask {
 
     @Id
     @GeneratedValue(strategy = IDENTITY)
@@ -18,4 +18,8 @@ public class TaskStudent {
 
     @Column
     private String title;
+
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+//    @JoinColumn(name = "student_id", referencedColumnName = "id")
+    private StudentEntity studentEntity;
 }
